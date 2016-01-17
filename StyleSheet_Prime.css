@@ -1,47 +1,71 @@
+/* * {
+margin: 0;
+padding: 0;
+}
+*/
+
+header { 
+	display: block;
+}
+
+
+body {
+    background-image: url("dark_embroidery.png");
+}
+
+h2:first-letter {
+	font-family: 'Over the Rainbow', serif;
+	font-size: 35px;
+	letter-spacing: -5px;
+}
+
 .container {
 	width: 700px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: #f0f0f0;
+	background-color: #ffffff;
 	padding: 5px 40px 20px 40px;
-	border: 1px solid #C8C8C8;
-	box-shadow: 6px 6px 4px #C8C8C8;
+	border: 1px solid #101010;
+	box-shadow: 6px 6px 4px #101010;
 }
 
-.container h1, h2, h3, h4 {
-	font-family: Arial, Helvetica, sans-serif;
+.container h2, h3, h4, p, li {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: normal;
 }
 
 .container h1, h2 {
-	color: #003366;
+	color: #0e6784;
 }
 
 .container h3, h4 {
-	color: #505050;
 	margin-bottom: 0px;
-	font-weight: lighter;
 }
 
-.container p, li {
-	font-family: Arial, Helvetica, sans-serif;
+.container li {
 	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 8px;
 }
 
 h1 {
-	margin-bottom: 3px;
-	letter-spacing: 2px;
-	font-size: 24px;
+	margin-bottom: -10px;
+	letter-spacing: 3px;
+	font-size: 26px;
 	text-align: center;
+	font-family: 'Over the Rainbow', serif;
 }
 
 h2 {
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 0px;
-	font-size: 20px;
+	font-size: 22px;
+	line-height: 28px;
 	border-bottom: 2px solid #C8C8C8;
 }
 
 h3 {
+	color: #0e6784;
 	margin-top: 20px;
 	font-size: 18px;
 }
@@ -49,30 +73,40 @@ h3 {
 h4 {
 	margin-top: 0px;
 	font-size: 15px;
+	font-weight: lighter;
 }
 
 
-.MyInfo {
-	margin-bottom: 50px;
+header {
+	margin-bottom: 35px;
 }
 
 
 
-.MyInfo p {
-	margin-top: 0px;
+header p {
+	font-size: 12px;
+	margin-top: 3px;
 	text-align: center;
 }
 
-.MyInfo a {
-	color: #003366;
+header a {
+	color: #0e6784;
+	text-decoration: none;
 }
 
-.Section p {
+section p {
 	float: right;
-	font-size: 12px;
 	font-style: italic;
+	font-size: 12px;
 }
 
-.Section {
+section {
 	margin-bottom: 30px;
 }
+
+.WriteCap {
+	font-family: 'Over the Rainbow', serif;
+	font-size: 28px;
+}
+
+
